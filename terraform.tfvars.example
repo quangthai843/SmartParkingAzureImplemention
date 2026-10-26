@@ -1,0 +1,8 @@
+location               = "southeastasia"
+static_web_app_location = "eastasia"
+docker_image            = "ghcr.io/your-org/smartparking-api:latest"
+
+mysql_admin_password = "replace-with-a-strong-password"
+gemini_api_key       = "replace-with-your-gemini-api-key"
+vnpay_tmn_code       = "replace-with-your-vnpay-tmn-code"
+vnpay_hash_secret    = "replace-with-your-vnpay-hash-secret"

@@ -1,0 +1,26 @@
+# Terraform working directory and local plugins
+.terraform/
+
+# Terraform state and plan files may contain secrets
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+
+# Local variable files may contain credentials
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
